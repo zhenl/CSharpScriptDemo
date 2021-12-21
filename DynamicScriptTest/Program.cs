@@ -58,3 +58,7 @@ script3 = script3.ContinueWith("int y=0;");
 script3 = script3.ContinueWith("for(var i=0;i<7;i++) y+=x[i] ;");
 script3 = script3.ContinueWith("return y;");
 Console.WriteLine((await script3.RunAsync()).ReturnValue);
+
+Console.WriteLine(@"文件读入脚本:");
+var s4 = CSharpScript.Create(File.ReadAllText("script.txt"));
+Console.WriteLine((await s4.RunAsync()).ReturnValue);

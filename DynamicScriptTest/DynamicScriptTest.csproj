@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="script.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
