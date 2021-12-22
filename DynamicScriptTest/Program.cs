@@ -62,3 +62,9 @@ Console.WriteLine((await script3.RunAsync()).ReturnValue);
 Console.WriteLine(@"文件读入脚本:");
 var s4 = CSharpScript.Create(File.ReadAllText("script.txt"));
 Console.WriteLine((await s4.RunAsync()).ReturnValue);
+
+Console.WriteLine(@"测试类:");
+var script4 = CSharpScript.Create("public class Person { public string Name; } ");
+script4 = script4.ContinueWith(@"var p=new Person{Name=""张三""}; ");
+script4 = script4.ContinueWith("return p.Name;");
+Console.WriteLine((await script4.RunAsync()).ReturnValue);
