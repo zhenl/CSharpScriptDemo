@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicScript", "DynamicScr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicScriptTest", "DynamicScriptTest\DynamicScriptTest.csproj", "{1B172717-01D7-4181-9596-EAA98FFD5817}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSInCSharp", "JSInCSharp\JSInCSharp.csproj", "{1F6637BF-6B0F-40BA-9483-898EA990211A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B172717-01D7-4181-9596-EAA98FFD5817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B172717-01D7-4181-9596-EAA98FFD5817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B172717-01D7-4181-9596-EAA98FFD5817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6637BF-6B0F-40BA-9483-898EA990211A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6637BF-6B0F-40BA-9483-898EA990211A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6637BF-6B0F-40BA-9483-898EA990211A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6637BF-6B0F-40BA-9483-898EA990211A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
